@@ -1,0 +1,35 @@
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: 'Inter', sans-serif;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.add-user {
+   margin: 0;
+   padding-top: 0;
+   max-width: 600px;
+   float: right;
+   border-radius: 0;
+}
+.add-user .nextui-modal-header {
+   padding: 5px 24px 0;
+}
+.add-user .nextui-modal-close-icon svg {
+   color: rgb(255, 0, 128);
+}
+.add-user .nextui-checkbox-group-items {
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.add-user .nextui-checkbox-label {
+width: 20%;
+}
+.add-user .nextui-radio-group-label,
+.add-user .nextui-checkbox-group-label {
+   color: white !important;
+}
